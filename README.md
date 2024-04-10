@@ -29,7 +29,7 @@ Feel free to explore my projects and get in touch if you have any questions or o
 
 To view this portfolio website locally, follow these steps:
 
-1. Clone the repository: `$ git clone https://github.com/your-username/your-portfolio.git`
+1. Clone the repository: `$ git clone https://github.com/Sandeepgupta078/My-Portfolio.git`
 2. Open the `index.html` file in your web browser.
 
 ## Features
