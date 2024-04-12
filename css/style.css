@@ -572,6 +572,7 @@ img {
 }
 .portfolio_button:hover .button_icon{
   transform: translateX(.25rem);
+  margin-top: var(--mb-0-5);
 }
 
 .swiper-button-prev::after, .swiper-button-next::after{
@@ -600,7 +601,16 @@ img {
 } 
 
 /* contact */
-
+.contact-section{
+  width: 80%;
+  margin-left: 10%;
+}
+.contact_form{
+  margin-bottom: 1rem;
+}
+.contact-info{
+  margin-left: 10%;
+}
 .contact_container{
   row-gap: 3rem;
   /* margin-left: 7rem; */
@@ -617,6 +627,7 @@ img {
 .contact_title{
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
+  margin-top: var(--mb-0-5);
 }
 .contact_subtitle{
   font-size: var(--h3-font-size);
@@ -895,6 +906,9 @@ img {
   .home_social{
     transform: translateX(-6rem);
   }
+   .skills_container{
+    margin-left: 35%;
+  } 
   .portfolio_content{
     column-gap: 5rem;
   }
