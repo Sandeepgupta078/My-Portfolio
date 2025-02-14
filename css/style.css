@@ -367,15 +367,15 @@ img {
   align-items: center;
 }
 /* about */
-.about_img{
+/* .about_img{
   width: 350px;
   border-radius: .5rem;
   justify-self: center;
   align-self: center;
-}
+} */
 
 .about_description{
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: var(--mb-2-5);
 }
 
@@ -457,16 +457,16 @@ img {
   background-color: var(--first-color);
 }
 .skills_java{
-  width: 90%;
+  width: 100%;
 }
 .skills_pyhton{
-  width: 60%;
+  width: 100%;
 }
 .skills_js{
-  width: 70%;
+  width: 100%;
 }
 .skills_c{
-  width: 60%;
+  width: 100%;
 }
 
 
@@ -775,7 +775,7 @@ img {
     order: 1;
     justify-self: center;
   }
-  .about_container, .skills_container, .portfolio_content, .contact_container, .footer_container{
+  .skills_container, .portfolio_content, .contact_container, .footer_container{
     grid-template-columns: repeat(2,1fr);
   }
   .qualification_sections{
