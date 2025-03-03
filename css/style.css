@@ -748,6 +748,9 @@ img {
   .nav_list{
     column-gap: 0;
   }
+  .home_img{
+    border-radius: 2rem;
+  }
   .home_content{
     grid-template-columns: .25fr 3fr;
   }
